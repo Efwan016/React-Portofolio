@@ -214,15 +214,30 @@ ul#nav li.current a { color: #fe6928; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: transparent;
+   border: 2px solid #fff; /* opsional, bisa kamu ubah warna border */
+   color: #fff; /* biar text-nya tetap kelihatan */
+   padding: 10px 20px;
+   border-radius: 5px; /* biar sedikit membulat */
+   transition: all 0.3s ease-in-out;
 }
+
 #about .download .button:hover {
    background: #fff;
    color: #2B2B2B;
+   border-color: #ffff;
+   
 }
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
+}
+#about .main-col {
+  text-align: left !important;
+}
+
+.button {
+  transition: all 0.3s ease-in-out;
 }
 
 
@@ -319,6 +334,24 @@ ul#nav li.current a { color: #fe6928; }
    line-height: 42px;
    border-radius: 0px;
 }
+/* popup untuk photoprofile
+Tambahkan atau pastikan ini ada */
+.popup-modal {
+  max-width: 550px;
+  width: 90%;
+  margin: 0 auto;
+}
+.popup-modal img, .mfp-content img {
+  max-width: 100%;
+  height: auto;
+}
+.mfp-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 /*
 .git {
   	-moz-animation: git 2s ease;
@@ -721,7 +754,7 @@ call-to-action .button {
 .flexslider .slides > li { position: relative; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container { zoom: 1; position: relative; }
 
@@ -758,7 +791,7 @@ call-to-action .button {
     margin: 0 6px;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
 }
 .flex-control-paging li a {
     width: 12px;
@@ -837,7 +870,6 @@ call-to-action .button {
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
-	float: left;
    width: 26%;
 }
 #contact input,

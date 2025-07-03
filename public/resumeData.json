@@ -2,8 +2,91 @@
     "main": {
         "name" : "Efwan Rizaldi",
         "description" : "I am a Frontend developer || React Entusiast",
-        "image" : "profilepic.jpg",
+        "image" : "profilepic.png",
         "github" : "https://github.com/Efwan016",
-        "project" :"https://github.com/Efwan016?tab=repositories"
+        "project" :"https://github.com/Efwan016?tab=repositories",
+        "bio" : "I have a solid understanding of web development, with a strong focus on frontend technologies. I also possess skills in finance, particularly in accounting, and am proficient in both spoken and written English. I am a hardworking and adaptable individual who thrives both independently and in team settings. Currently, I am passionate about growing my expertise in web development as both a career and a personal interest.",
+        "contacmessage" : "Hello, here I am",
+        "email": "efwanrizaldi@gmail.com",
+        "phone" : "+61 812-1811-5660",
+        "address": {
+            "street" : "Jl Abdul Gani, Rt 03 / Rw 01, Karanggan, Gunung Putri",
+            "city" : "Bogor",
+            "state" : "West Java",
+            "zip" : "16961"
+        },
+        "website" : "https://react-project-portofolio.vercel.app/",
+        "resumeDownload" : "https://efwan016.github.io/my-portfolio/",
+        "social" : [
+            {
+                "name" : "Instagram",
+                "url": "https://www.instagram.com/vhanzrz?igsh=MWN0ZXMwYm5rYWl0Yg%3D%3D&utm_source=qr",
+                "className" : "fa fa-instagram"
+            },
+            {
+                "name" : "Twitter",
+                "url" : "https://x.com/flowrich333?s=11",
+                "className": "fa fa-twitter"
+            },
+            {
+                "name" : "Linkedin",
+                "url" : "https://www.linkedin.com/in/efwan-rizaldi-7a9801265/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name" : "Github",
+                "url" : "https://github.com/Efwan016?tab=repositories",
+                "className" : "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+  "skillmessage": "I possess skills in finance, particularly in accounting, and am proficient in both spoken and written English. I am a hardworking individual, capable of working independently or collaboratively within a team. Currently, I am enthusiastic about developing my passion for web development, especially using React.js.",
+  "education": [
+    {
+      "School": "SMK Karya Nugraha Bogor",
+      "degree": "Automotive",
+      "graduated": "May 2014",
+      "description": "Learned practical and theoretical skills in automotive repair and maintenance."
     }
+  ],
+  "work": [
+    {
+      "company": "PT. Binatama Akrindo",
+      "title": "Inventory Accountant",
+      "years": "April 2017 - March 2021",
+      "description": "Recorded incoming and outgoing goods; performed inventory valuation; conducted stock opname and reconciliation; created inventory reports; and coordinated with multiple departments."
+    },
+    {
+      "company": "Adzani Cell (Self-employed)",
+      "title": "Owner",
+      "years": "April 2021 - Present",
+      "description": "Managed daily operations; provided top-up services; sold mobile accessories, vouchers, and digital products; performed basic phone repairs and maintenance; handled customer service, sales, and inventory."
+    }
+  ],
+  "skills": [
+    {
+        "name": "Javascript",
+        "level": "85%"
+    },
+    {
+        "name": "React.Js",
+        "level": "80%"
+    },
+    {
+        "name": "Ms.Office",
+        "level" : "90%"
+    }
+  ]
+},
+"portofoli" :{
+    "projects": [
+        {
+            "title": "Mini Calculator",
+                "category": "Calculator",
+                "image": "01.jpg",
+                "url": "https://efwan016.github.io/Mini-Project-Calculator/"
+        }
+    ]
+}
 }
