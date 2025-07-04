@@ -4,9 +4,10 @@ import { Fade } from "react-awesome-reveal";
 
 class Header extends Component {
     componentDidMount() {
+        setTimeout(() => {
         const sections = document.querySelectorAll("section, div[id]");
         const navLinks = document.querySelectorAll("#nav li");
-
+        
         window.addEventListener("scroll", () => {
             let current = "";
 
@@ -34,7 +35,8 @@ class Header extends Component {
                 this.parentElement.classList.add("current");
             });
         });
-    }
+    }, 100)
+}
 
     render() {
         if (!this.props.data) return null;
