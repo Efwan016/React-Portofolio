@@ -5,6 +5,8 @@ import $ from 'jquery';
 import Header from './Component/Header';
 import About from './Component/About';
 import Contact from './Component/Contact';
+import Resume from './Component/Resume';
+
 
 
 class App extends Component {
