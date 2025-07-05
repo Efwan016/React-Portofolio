@@ -310,8 +310,8 @@ ul#nav li.current a { color: #fe6928; }
    position: relative;
   	margin-bottom: 60px;
   	background: #333;
-  	height: 42px;
-  	border-radius: 0px;
+  	height: 20px;
+  	border-radius: 10px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -331,9 +331,9 @@ ul#nav li.current a { color: #fe6928; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
-   border-radius: 0px;
+  	height: 20px;
+   line-height: 20px;
+   border-radius: 10px;
 }
 /* popup untuk photoprofile
 Tambahkan atau pastikan ini ada */
